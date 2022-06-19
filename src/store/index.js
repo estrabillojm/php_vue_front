@@ -1,12 +1,8 @@
 import { createStore } from 'vuex'
+import courses from './modules/courses'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    courses
   }
 })
